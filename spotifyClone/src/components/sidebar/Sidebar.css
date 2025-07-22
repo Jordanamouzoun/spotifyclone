@@ -1,4 +1,99 @@
 .sidebarMainContentContainer {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 21%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #1b1b1b, #171717);
+    height: 99%;
+}
+
+.sidebarTopContent {
+    /* border: 2px solid red; */
+    height: 15%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem; 
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 741);
+}
+
+.sidebarTopContent h1{
+    font-size: 1rem;
+}
+
+.sidebarTopContent p{
+    font-size: 1rem;
+}
+
+.sidebarMidleContent {
+    /* border: 2px solid red; */
+    height: 38%;
+    overflow-y: scroll;
+}
+
+.sidebarCardsContent {
+    /* border: 2px solid red; */
+    margin: 1.5rem 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: rgb(46, 46, 46);
+}
+
+.sidebarCardsContent h1{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.sidebarCardsContent p{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.sidebarCardsContent button{
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: #171717;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.sidebarBottomContentTopcontainer {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    padding-bottom: 0rem;
+    /* border: 2px solid green; */
+}
+
+.sidebarBottomContentTopcontainer p {
+    margin: .5rem;
+    font-size: .7rem;
+    /* border: 2px solid blue; */
+}
+
+/* .sidebarBottomContentBottomcontainer {
+    border: 2px solid green;
+} */
+
+.sidebarBottomContentBottomcontainer p {
+    margin: .5rem;
+    margin-left: 1.5rem;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.sidebarBottomContentBottomcontainer button {
+    color: white;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    outline: none;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
 }

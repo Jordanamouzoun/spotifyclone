@@ -1,0 +1,41 @@
+.footerMainContainer {
+    /* border: 2px solid red; */
+    height: 8%;
+    background-image: linear-gradient(to right, rgb(191, 26, 120), rgb(84, 140, 245));
+    display: flex;
+}
+
+.contentOnLeft {
+    /* border: 2px solid white; */
+    width: 88%;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.contentOnLeft h1{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.contentOnLeft p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.cotentOnRight {
+    /* border: 2px solid yellow; */
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cotentOnRight button {
+    font-size: 1.1rem;
+    color: black;
+    background-color: white;
+    padding: .9rem 2rem .9rem 2rem;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+}
